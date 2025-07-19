@@ -11,7 +11,8 @@ const [book,setBook]=useState('')
     if (!search.trim()) return; 
     try {
       const response = await axios.get(`http://localhost:8000/search?q=${encodeURIComponent(search)}`);
-      setBook(response.data.result)
+      const bookRes=response.data.result
+      setBook(bookRes?bookRes:"No near match found")
       console.log("Results:", response.data);
 
       
