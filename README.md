@@ -1,4 +1,4 @@
-## 🔍 AutoHunt
+# AutoHunt – Advanced Search Bar
 
 AutoHunt is an intelligent search bar that supports fuzzy, phonetic, and keyword-based matching for smarter search results.
 
